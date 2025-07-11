@@ -60,7 +60,7 @@ body {
 }
 
 .hero .btn {
-    background-color: #4f46e5;
+    background-color: #4E47FF;
     color: white;
     padding: 10px 24px;
     border: none;
@@ -268,7 +268,7 @@ article.review-card {
     box-shadow: 0 8px 24px rgb(33 33 33 / 0.07);
     background: #FFFFFF;
     height: 235px;
-    width: 470px;
+    width: 378px;
     padding: 39px 50px;
     border-radius: 14px;
     text-align: left;
@@ -319,7 +319,7 @@ article.review-card {
 
 .cta-button:hover,
 .cta-button:focus {
-    background-color: #4338ca;
+    background-color: #4E47FF;
 }
 
 img {
@@ -329,32 +329,18 @@ img {
 
 /* Contact section */
 
-.form-section {
-    max-width: 600px;
-    margin: 60px auto;
-    padding: 40px 30px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.form-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 26px;
-    color: #333;
-}
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     width: 497px;
+    text-align: left;
 }
 
 input,
 textarea {
-    padding: 20px 31px;
+    padding: 15px 31px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
     font-size: 15px;
@@ -373,8 +359,8 @@ textarea {
     min-height: 120px;
 }
 
-button {
-    background-color: #4f46e5;
+.contact-form button {
+    background-color: #4E47FF;
     color: white;
     padding: 19px 101px;
     border: none;
@@ -384,9 +370,21 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #3730a3;
+#allbtn {
+    transition: all 0.5s;
 }
+
+
+#allbtn:hover {
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: larger;
+    border: 1px solid #4E47FF;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
 
 /* Footer-section */
 
@@ -398,7 +396,7 @@ button:hover {
 }
 
 .footer-text h1 {
-    color: #1200ff;
+    color: #4E47FF;
     font-size: 100px;
 }
 
@@ -417,6 +415,12 @@ button:hover {
     color: #8987A1;
 }
 
+.footer-content a:hover {
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 .footer-links {
     padding: 17px 0px;
 }
@@ -428,12 +432,13 @@ button:hover {
 
 
 
-a {
+.footer-content a {
     text-decoration: none;
     color: #8987A1;
+    transition: all 0.3s ease;
 }
 
-ul {
+.footer-content ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
