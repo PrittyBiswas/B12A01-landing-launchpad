@@ -7,6 +7,7 @@
 body {
     background-color: #eff4f9;
     color: #2c2c2c;
+    font-family: "Libertinus Mono", monospace;
 }
 
 .container {
@@ -53,7 +54,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 58px;
+    font-size: 45px;
     font-weight: bold;
     color: #252432;
     margin-bottom: 26px;
@@ -261,7 +262,7 @@ h2.section-header {
 }
 
 h2.contact-title {
-    font-size: 97px;
+    font-size: 65px;
 }
 
 article.review-card {
@@ -403,6 +404,7 @@ textarea {
 .footer-text span {
     color: #8987A1;
     margin: 0px;
+    font-size: 12px;
 }
 
 .footer-text span ul {
